@@ -11,7 +11,6 @@ def minOperations(n):
     '''
     if n < 0:
         return 0
-    ans = 0
     num = sqrt(n)
     ans =+ num * 2
     if type(num) is float:
